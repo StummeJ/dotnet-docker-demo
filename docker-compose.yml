@@ -1,0 +1,11 @@
+version: "3.5"
+
+services:
+  # Services for running solely out of the identity repo
+  demo:
+    build:
+      context: ./
+      dockerfile: ./Dockerfile
+    command:
+      - dotnet
+      - demo.dll

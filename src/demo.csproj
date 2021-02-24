@@ -1,0 +1,44 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+    <ItemGroup>
+    <PackageReference Include="Amazon.AspNetCore.DataProtection.SSM" Version="1.1.0" />
+    <PackageReference Include="AspectInjector" Version="2.4.4" />
+    <PackageReference Include="AspNetCore.HealthChecks.Network" Version="5.0.1" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="7.0.0" />
+    <PackageReference Include="AWSSDK.Core" Version="3.3.105.1" />
+    <PackageReference Include="AWSSDK.SecurityToken" Version="3.3.104.46" />
+    <PackageReference Include="DeepCloner" Version="0.10.2" />
+    <PackageReference Include="Fido2" Version="1.1.0" /> <!-- Uses Newtonsoft.Json 12.0.3 -->
+    <PackageReference Include="GraphQL-Parser" Version="5.3.3" />
+    <PackageReference Include="GraphQL.Server.Authorization.AspNetCore" Version="4.4.1" />
+    <PackageReference Include="GraphQL.Server.Transports.AspNetCore.SystemTextJson" Version="4.4.1" />
+    <PackageReference Include="GraphQL.Server.Ui.Playground" Version="4.4.1" /> <!-- Uses Newtonsoft.Json 12.0.3 -->
+    <PackageReference Include="GraphQL.Server.Ui.Voyager" Version="4.4.1" /> <!-- Uses Newtonsoft.Json 12.0.3 -->
+    <PackageReference Include="Handlebars.Net" Version="2.0.4" />
+    <PackageReference Include="IdentityServer4.EntityFramework" Version="4.1.1" /> <!-- Uses Newtonsoft.Json 12.0.2 -->
+    <PackageReference Include="Joonasw.AspNetCore.SecurityHeaders" Version="3.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.Facebook" Version="5.0.3" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.Google" Version="5.0.3" />
+    <PackageReference Include="microsoft.aspnetcore.authentication.jwtbearer" Version="5.0.3" />
+    <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="5.0.3" />
+    <PackageReference Include="Microsoft.AspNetCore.Diagnostics.HealthChecks" Version="2.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.HttpOverrides" Version="2.2.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="5.0.3" />
+    <PackageReference Include="Microsoft.Extensions.Diagnostics.HealthChecks.EntityFrameworkCore" Version="5.0.3" />
+    <PackageReference Include="Microsoft.Extensions.DependencyModel" Version="5.0.0" />
+    <PackageReference Include="NewRelic.Agent" Version="8.39.0" />
+    <PackageReference Include="NewRelic.Agent.Api" Version="8.39.0" />
+    <PackageReference Include="NWebsec.AspNetCore.Middleware" Version="3.0.0" />
+    <PackageReference Include="NWebsec.AspNetCore.Mvc.TagHelpers" Version="3.0.0" />
+    <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="5.0.0-alpha.2" />
+    <PackageReference Include="Portable.BouncyCastle" Version="1.8.9" />
+    <PackageReference Include="PreMailer.Net" Version="2.2.0" />
+    <PackageReference Include="Serilog.AspNetCore" Version="3.4.0" />
+    <PackageReference Include="VaultSharp" Version="1.4.0.4" /> <!-- Uses Newtonsoft.Json 12.0.3 -->
+  </ItemGroup>
+
+</Project>
